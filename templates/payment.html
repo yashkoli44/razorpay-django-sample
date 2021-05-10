@@ -1,0 +1,25 @@
+
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+</head>
+<body>
+    <form action="charge" method="POST">
+        <script
+            src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="<YOUR_KEY>"
+            data-amount="5100"
+            data-name="Daft Punk"
+            data-description="Purchase Description"
+            data-image=""
+            data-netbanking="true"
+            data-prefill.name=""
+            data-prefill.email=""
+            data-prefill.contact=""
+            data-notes.shopping_order_id="21">
+        </script>
+        <input type="hidden" name="shopping_order_id" value="21">
+        {% csrf_token %}
+    </form>
+</body>
+</html>
