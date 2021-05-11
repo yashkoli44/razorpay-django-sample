@@ -51,5 +51,6 @@ django-admin startproject yourappname
 	<code>razorpay_client = razorpay.Client(auth=("<YOUR_KEY>", "<YOUR_SECRET>"))</code>
 
 
+App is ready to run.
 
 After all, the app is all yours so customize it as you want.
