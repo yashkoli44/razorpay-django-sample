@@ -40,7 +40,7 @@ django-admin startproject yourappname
 
 <br/>
 <br/><br/>
-<h3>Post Initial Setup</h3>
+<h3>Post-Initial Setup</h3>
 
 - Check <a href="https://github.com/yashkoli44/razorpay-django-sample/blob/master/templates/payment.html">templates/payment.html<a> and update with your app_key that you generated in your Razorpay Dashboard, or for any help <a href="https://razorpay.com/docs/payment-gateway/server-integration/python/usage/#generate-api-key">click here</a>
 
