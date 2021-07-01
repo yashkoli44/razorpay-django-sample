@@ -1,7 +1,7 @@
 # razorpay-django-sample
 <h1>Razorpay Django Sample app</h1>
 
-We assume that you have already created a Django Project with following command:
+I assume that you have already created a Django Project with following command:
 ```
 django-admin startproject yourappname
 ```
